@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "AccountingToFE"
-  text: "A VitePress Site"
+  text: "不愿意当全栈的会计不是好前端"
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: webpack构建打包优化
+      link: /webpack构建打包优化
 
 features:
   - title: Feature A
