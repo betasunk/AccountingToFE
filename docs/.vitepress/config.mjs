@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AccountingToFE",
   description: "A VitePress Site",
+  base: "/AccountingToFE/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
