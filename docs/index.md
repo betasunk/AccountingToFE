@@ -1,28 +1,29 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "AccountingToFE"
-  text: "不愿意当全栈的会计不是好前端"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-    - theme: alt
-      text: webpack构建打包优化
-      link: /webpack构建打包优化
+  # text: "不愿意当全栈的审计不是好前端"
+  tagline: 不愿意当全栈的审计不是好前端
+  # actions:
+  #   - theme: brand
+  #     text: Markdown Examples
+  #     link: /markdown-examples
+  #   - theme: alt
+  #     text: API Examples
+  #     link: /api-examples
+  #   - theme: alt
+  #     text: webpack构建打包优化
+  #     link: /webpack构建打包优化
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: JavaScript语言
+    details: js语法
+    link: ./JavaScript语言/index
+  - title: 浏览器知识
+    details: 和前端相关的浏览器知识
+  - title: 前端工程化
+    details: webpack构建、优化
+    link: ./前端工程化/webpack构建打包优化
 ---
 
